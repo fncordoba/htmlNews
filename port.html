@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Opinion | Three Poets on the Amazon - The New York Times</title>
     </head>
     <body>
-        <header style="display: flex; justify-content: space-between;">
-            <div> 
+        <header>
+            <div class="nav"> 
                 <nav>
                     <ul>
                         <li><a href="#">Home Page</a></li>
@@ -18,6 +19,8 @@
                         <li><a href="#">Business</a></li>
                     </ul>
                 </nav>
+            </div>    
+            <div class="search">   
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                     <path d="M0 0h24v24H0z" fill="none"/>
                     <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 
@@ -26,10 +29,10 @@
                 </svg>
                 <input type="search" name="Search" placeholder="Search">
             </div>
-            <div>
+            <div class="title">
                 <a href="https://www.nytimes.com/">The New York Times</a>
             </div>
-            <div>
+            <div class="button">
                 <input type="button" value="Subscribe Now">
                 <input type="button" value="Log In">
             </div>
@@ -37,7 +40,7 @@
         <hgroup>
             <h2>Opinião</h2>
             <h1>Três Poetas na Amazônia</h1>
-            <p>Este artigo faz parte da série de Opinião <u>A Amazônia já viu nosso futuro</u>, 
+            <p>Este artigo faz parte da série de Opinião <u>A Amazônia já viu nosso futuro</u>,<br> 
             sobre como os povos da região vivenciam as versões mais extremas dos 
             problemas do nosso planeta.</p>
             <h3>Ilustrado por Paola Saliby</h3>
@@ -48,177 +51,109 @@
             <h4><a href="new2.html">Fires are raging in the Amazon—again</a></h4> 
             <article>
                 <img src="imgs/poem1.jpg" width="500" height="300" alt="poem painting">
-                <h3>MANAUS OUTRA VEZ</h3>
+                <h3 class="title-poem">MANAUS OUTRA VEZ</h3>
                 <h3>BY ASTRID CABRAL</h3>
-                <p>Astrid Cabral é uma poeta brasileira da Amazónia. Os seus livros incluem “Jaula”, 
+                <p class="sub">Astrid Cabral é uma poeta brasileira da Amazónia. Os seus livros incluem “Jaula”, 
                 “Rasos D’água”, “Ante-sala”, e “Alameda”.</p>  
                 <hr>
                 <h4><a href="new1.html">Read in English</a> / <a href="esp.html">Leer en Español</a></h4> 
-                <pre>
-                    Lojas e mais lojas de ótica ao longo das ruas.
-
-                    Em vão procuro lentes à prova de espaço e tempo.
-
-                    Lentes que anulem distâncias soberanas, infinitas
-
+                <div class="poem">
+                    <p>Lojas e mais lojas de ótica ao longo das ruas.
+                    Em vão procuro lentes à prova de espaço e tempo.</p>
+                    <p>Lentes que anulem distâncias soberanas, infinitas
                     e tragam até mim as límpidas imagens de antes.
-
                     Meus olhos se esforçam por desenterrar Manaus
-
-                    vasto mercado sem teto, garagem a céu aberto.
-
-                    Aqui e ali icebergs do neoclássico perfil:
-
+                    vasto mercado sem teto, garagem a céu aberto.</p>
+                    <p>Aqui e ali icebergs do neoclássico perfil:
                     a cúpula do teatro, o alto frontão de um palácio
-
                     mas lápides verticais logo interceptam a paisagem
-
                     e crua explosão de cores vem mascarar as fachadas
-
-                    do sisudo casario vestido de cinza e limo.
-
-                    Busco o discreto comércio, o recato da perdida
-
+                    do sisudo casario vestido de cinza e limo.</p>
+                    <p>Busco o discreto comércio, o recato da perdida
                     província onde se entrava por altas portas estreitas
-
-                    pedindo a mercadoria a pessoa conhecida.
-
-                    Tudo sem o menor escândalo, sem os escancarados
-
+                    pedindo a mercadoria a pessoa conhecida.</p>
+                    <p>Tudo sem o menor escândalo, sem os escancarados
                     cartazes e os estridentes berros de alto-falantes.
-
                     Busco a quieta face oculta bem anterior ao caos
-
                     folias de Carnaval de três efêmeros dias
-
                     o aprazível recanto onde reinava um silêncio
-
-                    rompido apenas por sinos e bondes sobre trilhos.
-
-                    Nada do rugir selvagem do transitar incessante
-
+                    rompido apenas por sinos e bondes sobre trilhos.</p>
+                    <p>Nada do rugir selvagem do transitar incessante
                     nem da multidão anônima desfilando sem rosto.
-
                     Agora, mal avanço, carros tomaram as calçadas
-
                     e barracas acamparam carregadas de eletrônicos.
-
                     vejo enfim fícus, oitis, mangueiras e mamoeiros.
-
-                    Todos atestam o milagre, fruto das fecundas chuvas.
-
-                    Anos a fora cresceram, porém ficaram baixotes
-
+                    Todos atestam o milagre, fruto das fecundas chuvas.</p>
+                    <p>Anos a fora cresceram, porém ficaram baixotes
                     junto a imóveis manadas de exóticos elefantes.
-
                     Procuro em vão igarapés a fluir sob pontes
-
-                    arrastando ribanceiras, galhos, troncos, folhas.
-
-                    Não mais canoas, banzeiro, alagadas cuieiras
-
+                    arrastando ribanceiras, galhos, troncos, folhas.</p>
+                    <p>Não mais canoas, banzeiro, alagadas cuieiras
                     nem flutuantes, palafitas, touceiras de canarana.
-
                     Só mesmo infectos dejetos, poças gangrenas de lama,
-
-                    casebres de restos, folhas de zinco, escórias, miséria.
-
-                    Das submersas, semi-extintas e humilhadas águas
-
+                    casebres de restos, folhas de zinco, escórias, miséria.</p>
+                    <p>Das submersas, semi-extintas e humilhadas águas
                     somente um manto de mato denuncia-lhes a umidade.
-
-                    Para rever a cidade, fecho os olhos.
-                </pre>
+                    Para rever a cidade, fecho os olhos.</p>
+                </div>
             </article>
             <article>
                 <img src="imgs/poem2.jpg" width="500" height="300" alt="poem painting">
-                <h3>INDIO VELHO</h3>
+                <h3 class="title-poem">INDIO VELHO</h3>
                 <h3>BY SALGADO MARANHÃO</h3>
-                <p>Salgado Maranhão e um poeta afro-descendente do brasil. 
+                <p class="sub">Salgado Maranhão e um poeta afro-descendente do brasil. 
                 Os seus quatorze livros incluem “Sol Sanguíneo,” “Pelagem da Tigra,” 
                 “Palávora” e “O mapa da tribo.”</p>
                 <hr>
                 <h4><a href="new1.html">Read in English</a> / <a href="esp.html">Leer en Español</a></h4>   
-                <pre>
-                    Já nos tiraram o couro
-
-                    e o sague;
-
-                    já nos rifaram a terra
-
+                <div class="poem">
+                    <p>Já nos tiraram o couro
+                    e o sague;</p>
+                    <p>já nos rifaram a terra
                     e seus nomes santos
-
-                    (deixando-na rente ao osso).
-
-                    Insaciáveis, agora, trocam-nos
-
-                    pelos bois.
-
-                    Não, à seiva do agrobusiness!
-
+                    (deixando-na rente ao osso).</p>
+                    <p>Insaciáveis, agora, trocam-nos
+                    pelos bois.</p>
+                    <p>Não, à seiva do agrobusiness!
                     Não, à sorte da agromorte!
-
-                    Não ao tablet sem a Taba!
-
-                    Geme a flora,
-
+                    Não ao tablet sem a Taba!</p>
+                    <p>Geme a flora,
                     geme a fauna,
-
-                    geme o rio de mercúrio.
-
-                    Do fogo não brotam flores.
-
+                    geme o rio de mercúrio.</p>
+                    <p>Do fogo não brotam flores.
                     Deixem o que ainda nos resta!
-
-                    O que veste o índio é a floresta.
-
-
-                </pre>
+                    O que veste o índio é a floresta.</p>
+                </div>
             </article>
             <article>
                 <img src="imgs/poem3.jpg" width="500" height="300" alt="poem painting">
-                <h3>DESCRIAÇÃO</h3>
+                <h3 class="title-poem">DESCRIAÇÃO</h3>
                 <h3>BY HOMERO ARIDJIS</h3>
-                <p>Homero Aridjis é um poeta, romancista e ambientalista mexicano. 
+                <p class="sub">Homero Aridjis é um poeta, romancista e ambientalista mexicano. 
                 Entre seus livros estão “1492. Vida e Tempos de Juan Cabezón de Castela”.</p>
                 <hr>
                 <h4><a href="new1.html">Read in English</a> / <a href="esp.html">Leer en Español</a></h4>
-                <pre>
-                    A Amazônia tornou-se a maior fogueira do mundo.
-
-                    Os Alpes e os Andes fizeram-se abismos invertidos.
-
-                    Os mares evaporaram-se e os olhos que olhavam os mares também.
-
+                <div class="poem">
+                    <p>A Amazônia tornou-se a maior fogueira do mundo.
+                    Os Alpes e os Andes fizeram-se abismos invertidos.</p>
+                    <p>Os mares evaporaram-se e os olhos que olhavam os mares também.
                     O pássaro que cantava as quatrocentas vozes do azul
-
-                    esfumou-se na árvore da vida em chamas.
-
-                    Os olhos humanos foram os fossos mais profundos de todas as criaturas.
-
+                    esfumou-se na árvore da vida em chamas.</p>
+                    <p>Os olhos humanos foram os fossos mais profundos de todas as criaturas.
                     De repente, foi noite na Terra.
-
-                    Um silêncio ardente envolveu tudo.
-
-                    O mais órfão dos seres foi o filho do homem.
-
+                    Um silêncio ardente envolveu tudo.</p>
+                    <p>O mais órfão dos seres foi o filho do homem.
                     O rosto do bebê foi velho como a Lua.
-
-                    Éons apagaram-se em instantes.
-
-                    Em alguma parte em algum momento
-
+                    Éons apagaram-se em instantes.</p>
+                    <p>Em alguma parte em algum momento
                     o Godzilla demente e o Batman enlouquecido
-
-                    agarraram-se a boladas nucleares.
-
-                    Tudo foi breve.
-
-                    O Apocalipse será obra do homem, e não de Deus.
-                </pre>
+                    agarraram-se a boladas nucleares.</p>
+                    <p>Tudo foi breve.
+                    O Apocalipse será obra do homem, e não de Deus.</p>
+                </div>
             </article>
         </section>     
-        <footer style="display: flex; justify-content: center;">
+        <footer>
             <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&su=NYTimes.com:
                 +Three+Poets+on+the+Amazon&body=From+The+New+York+Times:
                 %0A%0AThree+Poets+on+the+Amazon%0A%0A%E2%80%9COn+the+tree+of+life,+the+bird+that+sang+
@@ -237,7 +172,7 @@
                 c-0.91-1.06-2.25-1.74-3.76-1.74c-2.37,0-4.35,1.66-4.86,3.88l-0.96-0.32c0.64-2.62,3-4.56,5.82-4.56c1.78,0,3.37,0.79,4.47,2.03 
                 L18,8.97V13.97z"/></g>
             </svg>
+            <h4><a href="new2.html">Fires are raging in the Amazon—again</a></h4>
         </footer>
-        <h4><a href="new2.html">Fires are raging in the Amazon—again</a></h4>
     </body>
 </html>

@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Opinion | Three Poets on the Amazon - The New York Times</title>
     </head>
     <body>
-        <header style="display: flex; justify-content: space-between;">
-            <div> 
+        <header>
+            <div class="nav"> 
                 <nav>
                     <ul>
                         <li><a href="#">Home Page</a></li>
@@ -18,6 +19,8 @@
                         <li><a href="#">Business</a></li>
                     </ul>
                 </nav>
+            </div>    
+            <div class="search">   
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                     <path d="M0 0h24v24H0z" fill="none"/>
                     <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 
@@ -26,10 +29,10 @@
                 </svg>
                 <input type="search" name="Search" placeholder="Search">
             </div>
-            <div>
+            <div class="title">
                 <a href="https://www.nytimes.com/">The New York Times</a>
             </div>
-            <div>
+            <div class="button">
                 <input type="button" value="Subscribe Now">
                 <input type="button" value="Log In">
             </div>
@@ -48,179 +51,110 @@
             <h4><a href="new2.html">Fires are raging in the Amazon—again</a></h4>
             <article>
                 <img src="imgs/poem1.jpg" width="500" height="300" alt="poem painting">
-                <h3>MANAOS OTRA VEZ</h3>
+                <h3 class="title-poem">MANAOS OTRA VEZ</h3>
                 <h3>BY ASTRID CABRAL</h3>
-                <p>Astrid Cabral es una poeta brasileña del Amazonas. Sus libros incluyen “Jaula”, 
+                <p class="sub">Astrid Cabral es una poeta brasileña del Amazonas. Sus libros incluyen “Jaula”, 
                 “Rasos D’água”, “Ante-sala” y “Alameda”.</p>  
                 <hr>
                 <h4><a href="new1.html">Read in English</a> / <a href="port.html">Ler em portugues</a></h4>
-                <pre>
-                    Tiendas y más tiendas de ópticas a lo largo de las calles.
-
-                    En vano busco lentes a prueba de espacio y tiempo.
-
-                    Lentes que cancelen distancias soberanas e infinitas
-
+                <div class="poem">
+                    <p>Tiendas y más tiendas de ópticas a lo largo de las calles.
+                    En vano busco lentes a prueba de espacio y tiempo.</p>
+                    <p>Lentes que cancelen distancias soberanas e infinitas
                     que me traigan las límpidas imágenes de antes.
-
                     Mis ojos se esfuerzan por desenterrar Manaos
-
-                    vasto mercado sin techo, garaje al aire libre.
-
-                    Aquí y allá icebergs de perfil neoclásico:
-
+                    vasto mercado sin techo, garaje al aire libre.</p>
+                    <p>Aquí y allá icebergs de perfil neoclásico:
                     la cúpula del teatro, el frontón alto de un palacio
-
                     mas lápidas verticales luego interceptan el paisaje
-
                     y una cruda explosión de colores enmascara las fachadas
-
-                    del sesudo caserío vestido de gris y lodo.
-
-                    Busco el comercio discreto, la prudencia de la perdida
-
+                    del sesudo caserío vestido de gris y lodo.</p>
+                    <p>Busco el comercio discreto, la prudencia de la perdida
                     provincia donde uno entraba por puertas altas y estrechas
-
-                    pidiendo la mercancía a una persona conocida.
-
-                    Todo sin el más mínimo escándalo, sin los carteles
-
+                    pidiendo la mercancía a una persona conocida.</p>
+                    <p>Todo sin el más mínimo escándalo, sin los carteles
                     descarados y el estridente berrido de los altavoces.
-
                     Busco una cara oculta y tranquila desde mucho antes de este caos.
-
                     Las locuras de carnaval de solo tres días fugaces
-
                     el agradable rincón donde reinaba el silencio
-
                     roto solo por el sonido de las campanas y los tranvías en sus vías.
-
                     Ninguno de los salvajes rugidos del tráfico interminable
-
-                    ni de la multitud anónima que desfila sin rostro.
-
-                    Ahora apenas puedo dar un paso, las aceras bloqueadas por los coches
-
+                    ni de la multitud anónima que desfila sin rostro.</p>
+                    <p>Ahora apenas puedo dar un paso, las aceras bloqueadas por los coches
                     y puestos callejeros llenos de aparatos electrónicos.
-
                     Me detengo brevemente: sorprendida por la dura tenacidad
-
-                    del verde: por fin veo licanias, ficus, mangos y papayas.
-
-                    Todos ellos proclaman el milagro, fruto de las lluvias fértiles.
-
+                    del verde: por fin veo licanias, ficus, mangos y papayas.</p>
+                    <p>Todos ellos proclaman el milagro, fruto de las lluvias fértiles.
                     Durante años han crecido, pero se han atrofiado a la sombra de
-
-                    esas manadas estacionarias de elefantes exóticos.
-
-                    Busco en vano los canales que fluyen bajo los puentes
-
+                    esas manadas estacionarias de elefantes exóticos.</p>
+                    <p>Busco en vano los canales que fluyen bajo los puentes
                     llevando a lo largo de las orillas de los ríos, ramas, troncos, hojas.
-
                     No más canoas, estelas rodantes, calabazas inundadas de agua,
-
-                    ni chozas flotantes, casas sobre zancos, brotes de hierba de pantano.
-
-                    Solo escombros infectados, charcos de barro gangrenoso,
-
+                    ni chozas flotantes, casas sobre zancos, brotes de hierba de pantano.</p>
+                    <p>Solo escombros infectados, charcos de barro gangrenoso,
                     chozas hechas de desechos, láminas de zinc, residuos, miseria.
-
                     De las sumergidas, casi extintas, aguas humilladas,
-
                     solo una cubierta de maleza revela la humedad oculta.
-
-                    Para ver la ciudad una vez más, cerré los ojos.
-                </pre>
+                    Para ver la ciudad una vez más, cerré los ojos.</p>
+                </div>
             </article>
             <article>
                 <img src="imgs/poem2.jpg" width="500" height="300" alt="poem painting">
-                <h3>BODINDIO VIEJO</h3>
+                <h3 class="title-poem">BODINDIO VIEJO</h3>
                 <h3>BY SALGADO MARANHÃO</h3>
-                <p>Salgado Maranhão es un poeta afrobrasileño con catorce libros publicados que 
+                <p class="sub">Salgado Maranhão es un poeta afrobrasileño con catorce libros publicados que 
                 incluyen Sangue do Sol, Pele de Tigre, Palávora y Mapeamento da Tribo.</p>
                 <hr>
                 <h4><a href="new1.html">Read in English</a> / <a href="port.html">Ler em portugues</a></h4>   
-                <pre>
-                    Ya nos han sangrado
-
-                    y encuerado;
-
-                    ya nos rifaron la tierra
-
+                <div class="poem">
+                    <p>Ya nos han sangrado
+                    y encuerado;</p>
+                    <p>ya nos rifaron la tierra
                     y sus santos nombres
-
-                    (dejándola en el hueso).
-
-                    Insaciables, ahora nos cambian
-
-                    por los bueyes.
-
-                    ¡No, a la savia de la agroindustria!
-
+                    (dejándola en el hueso).</p>
+                    <p>Insaciables, ahora nos cambian
+                    por los bueyes.</p>
+                    <p>¡No, a la savia de la agroindustria!
                     ¡No, a la suerte de la agro-muerte!
-
-                    ¡No a la tableta sin la aldea!
-
-                    Gime la flora,
-
+                    ¡No a la tableta sin la aldea!</p>
+                    <p>Gime la flora,
                     gime la fauna,
-
-                    gime el río de mercurio.
-
-                    Del fuego no brotan flores.
-
+                    gime el río de mercurio.</p>
+                    <p>Del fuego no brotan flores.
                     ¡Dejen lo que todavía nos queda!
-
-                    Lo que viste al indio es el bosque.
-
-
-                </pre>
+                    Lo que viste al indio es el bosque.</p>
+                </div>
             </article>
             <article>
                 <img src="imgs/poem3.jpg" width="500" height="300" alt="poem painting">
-                <h3>DESCREACIÓN</h3>
+                <h3 class="title-poem">DESCREACIÓN</h3>
                 <h3>BY HOMERO ARIDJIS</h3>
-                <p>Homero Aridjis es un poeta, novelista y ecologista mexicano. 
+                <p class="sub">Homero Aridjis es un poeta, novelista y ecologista mexicano. 
                 Entre sus libros se encuentran “1492. Vida y tiempos de Juan Cabezón de Castilla” y 
                 “Ojos de otro mirar”.</p>
                 <hr>
                 <h4><a href="new1.html">Read in English</a> / <a href="port.html">Ler em portugues</a></h4>
-                <pre>
-                    La Amazonia se volvió la hoguera más grande del mundo.
-
-                    Los Alpes y los Andes se hicieron simas invertidas.
-
-                    Los mares se evaporaron y los ojos que miraban los mares también.
-
+                <div class="poem">
+                    <p>La Amazonia se volvió la hoguera más grande del mundo.
+                    Los Alpes y los Andes se hicieron simas invertidas.</p>
+                    <p>Los mares se evaporaron y los ojos que miraban los mares también.
                     El ave que cantaba las cuatrocientas voces del azul
-
-                    se esfumó en el árbol de la vida en llamas.
-
-                    Los ojos humanos fueron las fosas más profundas de todas las criaturas.
-
-                    De repente fue noche en la Tierra.
-
-                    Un silencio ardiente envolvió todo.
-
+                    se esfumó en el árbol de la vida en llamas.</p>
+                    <p>Los ojos humanos fueron las fosas más profundas de todas las criaturas.
+                    De repente fue noche en la Tierra.</p>
+                    <p>Un silencio ardiente envolvió todo.
                     El más huérfano de los seres fue el hijo del hombre.
-
-                    La cara del bebé fue vieja como la Luna.
-
-                    Eones se borraron en instantes.
-
+                    La cara del bebé fue vieja como la Luna.</p>
+                    <p>Eones se borraron en instantes.
                     En alguna parte en algún momento
-
                     el Godzilla demente y el Batman enloquecido
-
-                    se agarraron a pelotazos nucleares.
-
-                    Todo fue breve.
-
-                    El Apocalipsis será obra del hombre, y no de Dios.
-                </pre>
+                    se agarraron a pelotazos nucleares.</p>
+                    <p>Todo fue breve.
+                    El Apocalipsis será obra del hombre, y no de Dios.</p>
+                </div>
             </article>
         </section>     
-        <footer style="display: flex; justify-content: center;">
+        <footer>
             <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&su=NYTimes.com:
                 +Three+Poets+on+the+Amazon&body=From+The+New+York+Times:
                 %0A%0AThree+Poets+on+the+Amazon%0A%0A%E2%80%9COn+the+tree+of+life,+the+bird+that+sang+
