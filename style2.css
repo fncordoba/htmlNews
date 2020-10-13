@@ -2,66 +2,64 @@
     margin-top: 25px;
     margin-left: 25px;
 }
+
 a:hover{
     text-decoration: underline dodgerblue;
 }
-.sublink:hover{
-    text-decoration: underline gray;
-}
-.name:hover{
-    color: steelblue;
-    text-decoration: underline steelblue;
-}
+
 header{
     display: inline-block;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 50px;
 }
 .story, .nature, .about, .name{
     font-weight: bold;
 }
+
 a.forests{
     margin-left: 10px;
 }
+
 p.inline{
     display: inline;
     margin: auto 10px auto 10px;
     color: dodgerblue;
 }
+
 a{
     text-decoration: none;
     color: dodgerblue;
     margin: 0px 0px 0px 0px;
 }
+
 hgroup{
     font-family: sans-serif;
     margin-bottom: 75px;
 }
-.svg{
-    margin-left: -10px;
-}
-.sublink{
-    color: grey;
-}
-h1.Title{
+
+h1.title{
     font-size: 50px;
     margin-top: -20px;
     margin-bottom: -25px;
 }
+
 h2.subtitle{
     font-style: italic;
-    font-size: 20px;
+    font-size: 16px;
     color: gray;
 }
+
 p{
     width: 700px;
-    font-size: 20px;
+    font-size: 19px;
     font-family: serif;
 }
+
 img.image{
     width: 700px;
     margin-left: 0px;
 }
+
 figcaption{
     text-align: center;
     margin-top: 0px;
@@ -69,17 +67,52 @@ figcaption{
     color: gray;
     width: 700px;
 }
+
 footer.div{
     display: inline;
 }
-#subcontein{
-    position: relative;
-    margin-left: 45px;
-   
-}
+
 .about, strong{
     margin-left: 0px;
 }
+
+.about, .name{
+    font-family: sans-serif;
+}
+
+.aboutAuthor{
+    font-family: serif;
+    font-size: 16px;
+}
+
+.sublink:hover{
+    text-decoration: underline gray;
+}
+
+.name:hover{
+    color: steelblue;
+    text-decoration: underline steelblue;
+}
+
+.svg{
+    margin-left: -10px;
+}
+
+.sublink{
+    color: grey;
+}
+
+#subcontein{
+    position: relative;
+    margin-left: 45px;  
+}
+
+#img{
+    display: inline-block;
+    position: absolute;
+    margin: -25px -25px;
+}
+
 #text{
     width: 500px;
     height: 294px;
@@ -88,16 +121,3 @@ footer.div{
     display: inline-block;
     margin: 0px 0px 0px 0px;
 }
-.about, .name{
-    font-family: sans-serif;
-}
-.aboutAuthor{
-    font-family: serif;
-    font-size: 16px;
-}
-#img{
-    display: inline-block;
-    position: absolute;
-    margin: -25px -25px;
-}
-

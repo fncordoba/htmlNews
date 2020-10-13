@@ -4,13 +4,7 @@ header{
     background-color: lightblue;
     text-align: center;
 }
-.title{
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 25px;
-}
+
 li{
     display: inline-block;
     width: auto;
@@ -20,38 +14,59 @@ li{
     margin-left: 20px;
     margin-right: 20px;
 }
+
 li:hover{
     background-color: darkcyan;
     font-weight: bold;
     
 }
-.search, .title, .button{
-    display: inline-block;
-}
+
 a{
     text-decoration: none;
     color: dodgerblue;
     margin: 0px 0px 0px 0px;
 }
+
 a:hover{
     text-decoration: underline dodgerblue;
 }
+
 hgroup{
     font-family: sans-serif;
     text-align: center;
 }
+
 section{
     text-align: center;
 }
+
+footer{
+    text-align: center;
+}
+
+.title{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.search, .title, .button{
+    display: inline-block;
+}
+
 .title-poem{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 30px;
 }
+
 .sub{
     font-style: italic;
     color: darkslategray;
 }
+
 .poem{
     width: 500px;
     height: auto;
@@ -59,6 +74,5 @@ section{
     margin-left: auto;
     margin-right: auto;
 }
-footer{
-    text-align: center;
-}
+
+
