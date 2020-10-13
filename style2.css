@@ -33,7 +33,7 @@ a{
 }
 
 hgroup{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 75px;
 }
 
@@ -52,7 +52,7 @@ h2.subtitle{
 p{
     width: 700px;
     font-size: 19px;
-    font-family: serif;
+    font-family: 'Lora', serif;
 }
 
 img.image{
@@ -77,11 +77,15 @@ footer.div{
 }
 
 .about, .name{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about{
+    font-size: 20px;
 }
 
 .aboutAuthor{
-    font-family: serif;
+    font-family: 'Lora', serif;
     font-size: 16px;
 }
 
